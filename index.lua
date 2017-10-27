@@ -24,10 +24,6 @@ local PSO_LEGACY_CLASSVAL = 5
 local PSO_SECTIONID_TOTAL = 10
 local keybTitle = "Enter \"Legacy\" PSO Name" 
 local keybInitialText = ""
-local ret = "Waiting for input..."
-local ret_a
-local ret_b
-local ret_c
 
 -- Initilize colours
 local psoSectionidColourList = {
@@ -89,6 +85,10 @@ end
 
 -- Main loop
 while true do
+	local ret = "Waiting for input..."
+	local ret_a
+	local ret_b
+	local ret_c
 	
 	-- Initializing drawing phase
 	Graphics.initBlend()
